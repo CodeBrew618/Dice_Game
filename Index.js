@@ -1,3 +1,5 @@
+
+
 function roll() {
     var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
@@ -30,4 +32,9 @@ function roll() {
 
  }
  
- roll();
+ function redirectToHome() {
+    window.location.href = './index.html';
+}
+
+
+
